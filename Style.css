@@ -119,6 +119,7 @@ section {
     padding-bottom: 2%;
     width: 100%;
     clear: both;
+    border:none;
     display: inline-block;
 }
 
@@ -194,5 +195,23 @@ footer nav{
     border: none;
 }
 footer{
-    padding-right: 10%
+    border:none;
+    padding-right: 10%;
+}
+hr{
+    margin-left: 33%;
+    width: 33%;
+    margin-top: 2%;
+}
+
+header div a img {
+    float: right;
+    margin-top: 2%;
+    margin-left: none;
+    width: 4.25%;
+    height: auto;
+}
+div img{
+    width: 15%;
+    height: auto;
 }
