@@ -258,13 +258,14 @@ div li{
     list-style:none;
 }
 main{
-    padding: 2.5%;
-    float: left;
-    width: 50%;
+    width: 100%;
 }
 form{
     padding: 5%;
-    width: 80%;
+    width: 40%;
+    float: left;
+        margin-left:2%;
+
 
 }
 form input[type=text] {
@@ -277,8 +278,13 @@ form input[type=submit] {
     width: 10%;
 
 }
-form img{
+main article img, form img{
     width: 4%;
     float: left;
     height: auto;
+}
+main article{
+    float: left;
+    margin-left:2%;
+    width: 40%;
 }
