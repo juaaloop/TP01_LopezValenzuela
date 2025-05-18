@@ -1,290 +1,332 @@
 * {
-    border: 1px solid gray;
-    padding: 0%;
-    margin: 0%;
+  border: 1px solid gray;
+  padding: 0%;
+  margin: 0%;
 }
 
 header {
-    display: inline-block;
-    width: 100%;
-    border: none;
-
+  display: inline-block;
+  width: 100%;
+  border: none;
 }
 
 header a img {
-    margin-left: 2%;
-    margin-top: 0%;
-    float: left;
-    border: none;
-    width: 7%;
-    height: auto;
-    padding: 0%;
+  margin-left: 2%;
+  margin-top: 0%;
+  float: left;
+  border: none;
+  width: 7%;
+  height: auto;
+  padding: 0%;
 }
 
 header nav li {
-    margin-top: 2%;
-    float: left;
-    margin-left: 2%;
-    list-style: none;
-    border: none;
-    padding: 0.5%;
+  margin-top: 2%;
+  float: left;
+  margin-left: 2%;
+  list-style: none;
+  border: none;
+  padding: 0.5%;
 }
 
 header div {
-    width: 40%;
-    float: right;
+  width: 50%;
+  float: right;
 }
 
 header div li {
-    float: right;
-    margin-left: none;
-    list-style: none;
-    border: 2px solid gray;
-    padding: 1%;
-    text-align: center;
-    width: 20%;
-
+  float: right;
+  margin-left: none;
+  list-style: none;
+  border: 2px solid gray;
+  padding: 1%;
+  text-align: center;
+  width: 20%;
 }
 
 header nav {
-    border: none;
-    margin-left: 33%;
-    margin-right: 2%;
+  border: none;
+  margin-left: 33%;
+  margin-right: 2%;
 }
 
 header a {
-    text-decoration: none;
-    font-size: 16px;
-    border: none;
-
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
 }
 
 .boton-oscurito {
-    background-color: rgb(37, 37, 37);
-    color: white;
-
+  background-color: rgb(37, 37, 37);
+  color: white;
 }
 
 section h1 {
-    border: none;
-    font-size: 64px;
-    float: left;
-    margin-top: 2%;
-    margin-left: 10%;
-    width: 35%;
-    line-height: 90%;
+  border: none;
+  font-size: 64px;
+  float: left;
+  margin-top: 2%;
+  margin-left: 10%;
+  width: 35%;
+  line-height: 90%;
 }
 
 section h3 {
-    width: 40%;
-    float: left;
-    font-size: 24px;
-    margin-left: 10%;
-    margin-top: 1%;
-    padding: 1%;
-    border: none;
+  width: 40%;
+  float: left;
+  font-size: 24px;
+  margin-left: 10%;
+  margin-top: 1%;
+  padding: 1%;
+  border: none;
 }
 
 section div a {
-    margin-top: 1%;
-    padding: 3%;
-    margin-left: 2%;
-    font-size: 20px;
-    text-decoration: none;
-    border: 2px solid gray;
-    float: left;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-
+  margin-top: 1%;
+  padding: 3%;
+  margin-left: 2%;
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid gray;
+  float: left;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 section div {
-    padding: 2%;
-    margin-left: 10%;
-    border: none ;
+  width: 35%;
+  padding: 2%;
+  margin-left: 10%;
+  float: left;
 }
 
 section img {
-    border: none;
-    width: 30%;
-    margin-right: 10%;
-    padding-top: 0%;
-    height: auto;
-    float: right;
+  border: none;
+  width: 30%;
+  margin-right: 10%;
+  padding-top: 0%;
+  height: auto;
+  float: right;
 }
 
 section {
-    margin-top: 0%;
-    margin-bottom: 0%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    width: 100%;
-    clear: both;
-    border:none;
-    display: inline-block;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  clear: both;
+  border: none;
+  display: inline-block;
 }
 
 section ul {
-    margin-left: 20%;
-    border: none;
-    display: inline-block;
+  margin-left: 20%;
+  border: none;
+  display: inline-block;
 }
 
 section ul li {
-    width: 20%;
-    padding: 1%;
-    float: left;
-    margin-right: 5%;
-    list-style: none;
-    border: none;
+  width: 20%;
+  padding: 1%;
+  float: left;
+  margin-right: 5%;
+  list-style: none;
+  border: none;
 }
 
 section ul li h3 {
-    width: 100%;
-    clear: both;
-    margin-left: 5%;
-    margin-top: 2%;
-    border: none;
+  width: 100%;
+  clear: both;
+  margin-left: 5%;
+  margin-top: 2%;
+  border: none;
 }
 
 section ul li p {
-    margin-left: 7%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border: none;
-    clear: both;
+  margin-left: 7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border: none;
+  clear: both;
 }
 
 section h2 {
-    font-size: 32px;
-    border: none;
-    margin-left: 10%;
-    margin-bottom: 4%;
+  font-size: 32px;
+  border: none;
+  margin-left: 10%;
+  margin-bottom: 4%;
 }
 
 section ul img {
-    margin-bottom: 5%;
-    clear: both;
-    width: 60%;
-    height: auto;
-    margin-right: 20%;
-    border: none;
+  margin-bottom: 5%;
+  clear: both;
+  width: 60%;
+  height: auto;
+  margin-right: 20%;
+  border: none;
 }
 
 footer img {
-    width: 5%;
-    height: auto;
+  width: 5%;
+  height: auto;
 }
-footer div{
-    width: 50%;
+footer div {
+  width: 50%;
 }
-footer li{
-list-style: none;
-border: none;
+footer li {
+  list-style: none;
+  border: none;
 }
-footer a{
-border: none;
-text-decoration: none;
+footer a {
+  border: none;
+  text-decoration: none;
 }
 footer div img {
-    width: 2.5%;
-    height: auto;
+  width: 2.5%;
+  height: auto;
 }
-footer nav{
-    margin-top: 1%;
-    width: 10%;
-    float: right;
-    border: none;
+footer nav {
+  margin-top: 1%;
+  width: 10%;
+  float: right;
+  border: none;
 }
-footer{
-    border:none;
-    padding-right: 10%;
+footer {
+  border: none;
+  padding-right: 10%;
 }
-hr{
-    margin-left: 33%;
-    width: 33%;
-    margin-top: 5%;
+hr {
+  margin-left: 33%;
+  width: 33%;
+  margin-top: 5%;
 }
 
 header div a img {
-    float: right;
-    padding: 1%;
-    margin-left: none;
-    width:8%;
-    height: auto;
-    border: none;
+  float: right;
+  padding: 1%;
+  margin-left: none;
+  width: 8%;
+  height: auto;
+  border: none;
 }
-div img{
-    margin-left: 10%;
-    width: 80%;
-    height: auto;
+div img {
+  margin-left: 10%;
+  width: 80%;
+  height: auto;
 }
-div{
+main div {
+  width: 15%;
+  float: left;
+  padding: 1%;
+  margin-left: 2%;
+}
+div h3 {
+  margin-top: 5%;
+  font-size: 32px;
+  border: none;
+  text-align: center;
+}
+div h4 {
+  font-size: 24px;
+  border: none;
+  text-align: center;
+}
+div h5 {
+  font-size: 20px;
+  color: gray;
+  border: none;
+  text-align: center;
+}
+div ul {
+  margin-top: 7.5%;
+  padding: 5%;
+}
+div li {
+  font-size: 16px;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  list-style: none;
+}
+main {
+  width: 100%;
+  border: none;
+}
+
+form input[type="text"] {
+  padding: 1.5%;
+  width: 75%;
+}
+form input[type="submit"] {
+  padding: 1.5%;
+  width: 10%;
+}
+main article img,
+form img {
+  margin-right: 2%;
+  padding: 0%;
+  width: 6%;
+  float: left;
+  height: auto;
+}
+main article,
+form {
+  padding: 2%;
+  float: left;
+  margin-left: 4%;
+  margin-bottom: 1%;
+  width: 45%;
+}
+main article h3 {
+  float: left;
+  width: 50%;
+}
+main article h5 {
+  float: right;
+  width: 20%;
+}
+main article h4 {
+  float: left;
+  width: 80%;
+}
+main article p {
+  clear: both;
+  width: 91%;
+  margin-left: 8.25%;
+  text-align: justify;
+}
+aside {
+  float: left;
+  width: 17.5%;
+  padding: 2%;
+  margin-left: 2%;
+}
+aside img{
     width: 15%;
     float: left;
-    padding: 1%;
-    margin-left: 2%;
-
+    border:none;
 }
-div h3{
-    margin-top: 5%;
-    font-size: 32px;
+ul{
     border: none;
-    text-align: center;
-
-
 }
-div h4{
-    font-size: 24px;
-     border: none;  
-     text-align: center;
- 
-    }
-div h5{
-font-size: 20px;
- color: gray;
- border: none;  
- text-align: center;
- 
+ul li{
+padding: 0%;
+display: inline-block;
+ list-style: none;
+ margin-bottom:1%
 }
-div ul{
-    margin-top: 7.5%;
-    padding: 5%;
-}
-div li{
+ul li h3{
+    margin-left: 5%;
+    width: 75%;
+    float:left;
     font-size: 16px;
-    justify-content: center;
-    text-align: center;
+        border: none;
+}
+ul li h4{
+    margin-left: 5%;
+    width: 75%;
+    float: left;
+    font-size: 14px;
+    color:gray;
     border: none;
-    list-style:none;
-}
-main{
-    width: 100%;
-}
-form{
-    padding: 5%;
-    width: 40%;
-    float: left;
-        margin-left:2%;
-
-
-}
-form input[type=text] {
-    padding: 1%;
-    width: 80%;
-
-}
-form input[type=submit] {
-    padding: 1%;
-    width: 10%;
-
-}
-main article img, form img{
-    width: 4%;
-    float: left;
-    height: auto;
-}
-main article{
-    float: left;
-    margin-left:2%;
-    width: 40%;
 }
