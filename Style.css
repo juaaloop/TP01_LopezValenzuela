@@ -218,7 +218,7 @@ main div {
   width: 15%;
   float: left;
   padding: 1%;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 div h3 {
   margin-top: 5%;
@@ -246,11 +246,13 @@ div li {
   justify-content: center;
   text-align: center;
   border: none;
-  list-style: none;
+  list-style: none; 
 }
 main {
   width: 100%;
   border: none;
+  margin:2%;
+
 }
 
 form input[type="text"] {
@@ -265,7 +267,7 @@ main article img,
 form img {
   margin-right: 2%;
   padding: 0%;
-  width: 6%;
+  width: 5%;
   float: left;
   height: auto;
 }
@@ -273,9 +275,15 @@ main article,
 form {
   padding: 2%;
   float: left;
-  margin-left: 4%;
+  margin-left: 2.5%;
   margin-bottom: 1%;
   width: 45%;
+}
+form{
+  padding: 1%;
+  margin-left: 2.5%;
+  width: 47%;
+
 }
 main article h3 {
   float: left;
@@ -296,37 +304,44 @@ main article p {
   text-align: justify;
 }
 aside {
-  float: left;
-  width: 17.5%;
+  float: right;
+  width: 15%;
   padding: 2%;
-  margin-left: 2%;
+  margin-right: 5%;
+  margin-bottom:1.5%;
 }
-aside img{
-    width: 15%;
-    float: left;
-    border:none;
+aside img {
+  width: 15%;
+  float: left;
+  border: none;
 }
-ul{
-    border: none;
+ul {
+  border: none;
 }
-ul li{
-padding: 0%;
-display: inline-block;
- list-style: none;
- margin-bottom:1%
+ul li {
+  padding: 0%;
+  margin-left: 5%;
+  width: 90%;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 1%;
 }
-ul li h3{
-    margin-left: 5%;
-    width: 75%;
-    float:left;
-    font-size: 16px;
-        border: none;
+ul li h3 {
+  margin-top: 1%;
+  margin-left: 5%;
+  width: 75%;
+  float: left;
+  font-size: 18px;
+  border: none;
 }
-ul li h4{
-    margin-left: 5%;
-    width: 75%;
-    float: left;
-    font-size: 14px;
-    color:gray;
-    border: none;
+ul li h4 {
+  margin-left: 5%;
+  width: 75%;
+  float: left;
+  font-size: 16px;
+  color: gray;
+  border: none;
+}
+body{
+  border:none;
 }
