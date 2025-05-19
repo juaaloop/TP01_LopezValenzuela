@@ -61,7 +61,7 @@ header a {
   color: white;
 }
 
-section h1 {
+section h1, main h1 {
   border: none;
   font-size: 64px;
   float: left;
@@ -170,31 +170,38 @@ footer img {
   width: 5%;
   height: auto;
 }
+
 footer div {
   width: 50%;
 }
+
 footer li {
   list-style: none;
   border: none;
 }
+
 footer a {
   border: none;
   text-decoration: none;
 }
+
 footer div img {
   width: 2.5%;
   height: auto;
 }
+
 footer nav {
   margin-top: 1%;
   width: 10%;
   float: right;
   border: none;
 }
+
 footer {
   border: none;
   padding-right: 10%;
 }
+
 hr {
   margin-left: 33%;
   width: 33%;
@@ -209,60 +216,75 @@ header div a img {
   height: auto;
   border: none;
 }
+
 div img {
   margin-left: 10%;
   width: 80%;
   height: auto;
 }
+
 main div {
   width: 15%;
   float: left;
   padding: 1%;
   margin-left: 5%;
 }
+
 div h3 {
   margin-top: 5%;
   font-size: 32px;
   border: none;
   text-align: center;
 }
+
 div h4 {
   font-size: 24px;
   border: none;
   text-align: center;
 }
+
 div h5 {
   font-size: 20px;
   color: gray;
   border: none;
   text-align: center;
 }
+
 div ul {
   margin-top: 7.5%;
   padding: 5%;
 }
+
 div li {
   font-size: 16px;
   justify-content: center;
   text-align: center;
   border: none;
-  list-style: none; 
+  list-style: none;
 }
+
 main {
   width: 100%;
   border: none;
-  margin:2%;
+  margin-top: 2%;
 
 }
 
 form input[type="text"] {
   padding: 1.5%;
-  width: 75%;
+  width: 77.5%;
+  border-radius: 10px;
+
 }
+
 form input[type="submit"] {
   padding: 1.5%;
   width: 10%;
+  float: right;
+  border-radius: 5px;
+
 }
+
 main article img,
 form img {
   margin-right: 2%;
@@ -271,61 +293,79 @@ form img {
   float: left;
   height: auto;
 }
+
 main article,
 form {
   padding: 2%;
   float: left;
-  margin-left: 2.5%;
+  margin-left: 2.25%;
   margin-bottom: 1%;
   width: 45%;
 }
-form{
-  padding: 1%;
-  margin-left: 2.5%;
-  width: 47%;
 
+form {
+  padding: 1%;
+  margin-left: 2.25%;
+  width: 47%;
 }
+
 main article h3 {
   float: left;
   width: 50%;
 }
+
 main article h5 {
   float: right;
   width: 20%;
 }
+
 main article h4 {
   float: left;
   width: 80%;
 }
+
 main article p {
   clear: both;
-  width: 91%;
-  margin-left: 8.25%;
+  width: 90%;
+  margin-left: 7.3%;
   text-align: justify;
 }
+
+main a {
+  color: grey;
+  margin-left: 30%;
+  padding: 2%;
+  border: none;
+}
+
 aside {
   float: right;
   width: 15%;
   padding: 2%;
   margin-right: 5%;
-  margin-bottom:1.5%;
+  margin-bottom: 1.5%;
 }
+
 aside img {
   width: 15%;
   float: left;
   border: none;
 }
+
 ul {
   border: none;
+  margin-bottom: 3%;
 }
+
 ul li {
   padding: 0%;
-  margin-left: 5%;
-  width: 90%;
+  margin-left: 0%;
+  width: 100%;
   display: inline-block;
   list-style: none;
   margin-bottom: 1%;
 }
+
 ul li h3 {
   margin-top: 1%;
   margin-left: 5%;
@@ -334,6 +374,7 @@ ul li h3 {
   font-size: 18px;
   border: none;
 }
+
 ul li h4 {
   margin-left: 5%;
   width: 75%;
@@ -342,6 +383,15 @@ ul li h4 {
   color: gray;
   border: none;
 }
-body{
-  border:none;
+
+body {
+  border: none;
 }
+main section img{
+  border: none;
+  width: 30%;
+  margin-top: 0%;
+  height: auto;
+  clear: both;
+}
+
