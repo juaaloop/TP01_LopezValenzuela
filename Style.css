@@ -62,15 +62,13 @@ header a {
   color: white;
 }
 
-section h1,
+body main section h1,section h1,
 main h1 {
-  border: none;
-  ;
   font-size: 64px;
   float: left;
   margin-top: 2%;
   margin-left: 10%;
-  width: 35%;
+  width: 30%;
   line-height: 90%;
 }
 
@@ -100,6 +98,7 @@ section div {
   padding: 0%;
   margin-left: 0%;
   clear: both;
+  border:none;
 }
 section nav {
   width: 35%;
@@ -326,9 +325,12 @@ form {
 }
 
 main article h3 {
+  margin:0%;
+  padding:0%;
   float: left;
   width: 50%;
   border: none;
+  font-size: 24px;
 }
 
 main article h5 {
@@ -369,18 +371,20 @@ aside {
 }
 
 aside ul li a img {
-  width: 15%;
+  width: 10%;
+  margin: 0%;
+  padding: 0%;
   float: left;
   border: none;
 }
 
-ul {
+aside ul {
   border: none;
   margin-bottom: 5%;
   display: inline-block;
 }
 
-ul li {
+aside ul li {
   padding: 0%;
   margin-left: 0%;
   width: 100%;
@@ -389,16 +393,17 @@ ul li {
   margin-bottom: 1%;
 }
 
-aside ul li a h3 {
+aside ul li a h3, main ul li h3 {
   margin-top: 0%;
   margin-left: 5%;
-  width: 45%;
+  width: 40%;
+  padding-left: 0%;
   float: left;
   font-size: 18px;
   color: black;
 }
 
-aside ul li a h4 {
+aside ul li a h4, main ul li h4 {
   margin-left: 5%;
   width: 75%;
   float: left;
@@ -410,12 +415,11 @@ aside ul li a h4 {
 body {
   border: none;
 }
-
 main section img {
-  padding: 2%;
+  padding: 5%;
   margin-top: 1%;
-  width: 28%;
-  margin-left: 10%;
+  width: 25%;
+  margin-left: 7.5%;
   height: auto;
   float: left;
 }
@@ -427,6 +431,7 @@ main section div {
   margin-right: 10%;
   margin-bottom: 1.5%;
   margin-top: 4%;
+  border: 1px solid grey;
 }
 
 main section div form {
@@ -474,21 +479,65 @@ main section div h2 {
   margin-left: 0%;
   text-align: center;
 }
-main h1{
-  clear: both;
-}
-main h2{
-  clear: both;
-
-}
 main ul li img {
 margin-left: 0%;
-width: 5%;
+width: 15%;
+float:left;
 }
-main ul{
+ul{
+  padding: 1%;
+  padding-left:10%;
   display: flex;
+  margin-bottom:2%
 }
-main ul li{
-  padding: 2%;
+ul li {
+  margin-right:1%;
+  list-style: none;
   width: 20%;
+  padding: 1%;
+}
+ul li a {
+  margin-right:2%;
+  float:left;
+  width: 30%;
+  padding: 1.5%;
+  text-align: center;
+}
+ul a{
+  margin:0%;
+  margin-top: 1%;
+  padding: 1.5%;
+  width: 10%;
+  border: 1px solid gray;
+  height:min-content;
+}
+h1{
+  font-size: 64px;
+  margin-top: 2%;
+  margin-left: 10%;
+  width: 30%;
+  line-height: 90%;
+}
+main h2
+{
+  font-size: 60px;
+  padding-left: 10%;
+  margin-bottom: 1%;
+  border: none;
+
+}
+main h3
+{
+  font-size: 30px;
+  padding-left: 10%;
+  margin-bottom: 1%;
+  border: none;
+
+}
+main p{
+  margin-left: 20%;
+  margin-bottom: 1%;
+  border: none;
+
+  clear: both;
 }
