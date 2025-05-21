@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
-    <link rel="stylesheet" href="Style.css">
-</head>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
 
-<body>
-    <main>
+  <body>
+    <header>
+      <a href="Index.html"><img src="img/Logo.png" alt="Logo" /></a>
+      <nav>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Discover.html">Discover</a></li>
+        <li><a href="Workspace.html">Workspace</a></li>
+        <li><a href="#">Chat</a></li>
         <div>
-            <img src="img/profile-banner.jpg" alt="">
-            <img src="img/profile-pic.jpg" alt="">
-            <h2>User Name</h2>
-            <h4>University</h4>
-            <h3>Career</h3>
-
+          <li><a href="#">Log out</a></li>
+          <a href="Profile.html"><img src="img/user.png" alt="user-pic" /></a>
         </div>
-    </main>
-</body>
+      </nav>
+    </header>
+    <main class="profile">
+      <div>
+        <img src="img/profile-banner.jpg" class="banner" alt="" />
+        <img src="img/profile-pic.jpg" class="user-pic" alt="" />
+        <h2>User Name</h2>
+        <a href="#">Edit</a>
+        <h4>University</h4>
+        <h3>Career</h3>
+        <h4>About me</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <aside>
+        <h3>Level</h3>
+        <h5>250 pts</h5>
+        <progress id="barraProgreso" value="40" max="100"></progress>
 
+      </aside>
+    </main>
+  </body>
 </html>
