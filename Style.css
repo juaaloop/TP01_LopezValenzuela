@@ -266,23 +266,21 @@ div h5 {
   color: gray;
   border: none;
   font-weight: normal;
-
   text-align: center;
 }
 
 div ul {
-  margin-top: 7.5%;
+  margin-top: 5%;
   padding: 5%;
   display: inline-block;
-  border: none;
 }
 
 div li {
   font-size: 16px;
   justify-content: center;
   text-align: center;
-  border: none;
   list-style: none;
+  border: none;
 }
 
 main {
@@ -502,13 +500,13 @@ main section div h2 {
   margin-left: 0%;
   padding: 0%;
   text-align: center;
+
 }
 
 main ul li img {
   margin-left: 0%;
   width: 15%;
   float: left;
-  border: none;
 }
 
 ul {
@@ -565,6 +563,8 @@ main h3 {
   font-size: 30px;
   padding-left: 10%;
   margin-bottom: 1%;
+  border: none;
+
 }
 
 main p {
@@ -706,6 +706,8 @@ body .workspace a {
   text-align: center;
   margin-left: 40%;
   margin-bottom: 7%;
+  margin-top: 2%;
+
   padding: 1%;
   display: inline-block;
   clear: both;
@@ -832,4 +834,55 @@ body .workspace select {
   margin-right: 10%;
   width: 57.5%;
   border: 1px solid black;
+}
+.profile section div {
+  width: 90%;
+  margin: 0%;
+  padding: 5%;
+  border: 1px solid black;
+}
+.profile section div article {
+  width: 95%;
+  margin: 0%;
+  padding: 2.5%;
+  clear: both;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.profile section div article img {
+  margin-right: 0%;
+  margin: 0%;
+  padding: 0%;
+  width: 5%;
+  float: left;
+  height: auto;
+}
+.profile section div article h3 {
+  width: 20%;
+  float: left;
+  margin: 0%;
+  margin-left: 0%;
+}
+.profile section div article h4 {
+  margin-left: 4%;
+  width: 75%;
+  float: left;
+  font-size: 16px;
+}
+.profile section div article h5 {
+  float: right;
+  font-size: 16px;
+  width: 20%;
+  border: none;
+  font-weight: normal;
+  color: gray;
+}
+.profile section div article p {
+  clear: both;
+  width: 80%;
+  padding: 2.5%;
+  margin-left: 5%;
+  border: none;
+  font-weight: normal;
 }
