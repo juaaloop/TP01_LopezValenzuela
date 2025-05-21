@@ -725,6 +725,9 @@ body .workspace select {
 
 .profile div {
   width: 80%;
+  padding: 0%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   margin-left: 10%;
   clear: both;
 }
@@ -754,8 +757,6 @@ body .workspace select {
   margin-left: 20%;
   padding: 0%;
   float: left;
-
-
 }
 .profile div h4 {
   font-size: 18px;
@@ -764,9 +765,8 @@ body .workspace select {
   margin: 0%;
   margin-left: 22.5%;
   text-align: left;
-  color:gray;
+  color: gray;
   float: left;
-
 }
 .profile div h3 {
   font-size: 24px;
@@ -777,7 +777,6 @@ body .workspace select {
   margin-left: 22.5%;
   text-align: left;
   float: left;
-
 }
 .profile div p {
   font-size: 16px;
@@ -787,8 +786,6 @@ body .workspace select {
   margin-left: 22.5%;
   text-align: left;
   float: left;
-
-
 }
 .profile div a {
   font-size: 16px;
@@ -803,26 +800,36 @@ body .workspace select {
   border: 1px solid gray;
 }
 
-.profile aside{
+.profile aside {
   float: left;
   margin-top: 1%;
   margin-left: 10%;
+  margin-right: 0%;
 }
-.profile aside h3{
+.profile aside h3,
+.profile section h3 {
   width: 70%;
   float: left;
   margin: 0%;
   padding: 0%;
+  padding-left: 4%;
   border: none;
 }
-.profile aside h5{
+.profile aside h5 {
   width: 25%;
   margin: 0%;
   padding: 0%;
-  float:right;
+  float: right;
 }
 .profile aside progress {
   width: 100%;
   padding: 1%;
   border: none;
+}
+.profile section {
+  float: right;
+  margin-top: 1%;
+  margin-right: 10%;
+  width: 57.5%;
+  border: 1px solid black;
 }
