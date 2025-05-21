@@ -169,8 +169,9 @@ section ul li a {
 section h2 {
   font-size: 32px;
   border: none;
+  margin-top: 2%;
   margin-left: 10%;
-  margin-bottom: 4%;
+  margin-bottom: 1%;
 }
 
 section ul li img {
@@ -237,6 +238,8 @@ div img {
   margin-left: 10%;
   width: 80%;
   height: auto;
+  border: none;
+
 }
 
 main div {
@@ -263,6 +266,8 @@ div h5 {
   font-size: 20px;
   color: gray;
   border: none;
+  font-weight: normal;
+
   text-align: center;
 }
 
@@ -311,6 +316,8 @@ form img {
   width: 5%;
   float: left;
   height: auto;
+  border: none;
+
 }
 
 main article,
@@ -341,6 +348,7 @@ main article h5 {
   float: right;
   width: 20%;
   border: none;
+  font-weight: normal;
   color: gray
 }
 
@@ -374,21 +382,20 @@ main aside {
   margin-bottom: 1.5%;
 }
 
- aside ul li a img {
+aside ul li a img {
   width: 15%;
   margin: 0%;
   padding: 0%;
   float: left;
-  border: none;
 }
 
- aside ul {
+aside ul {
   border: none;
   margin-bottom: 5%;
   display: inline-block;
 }
 
- aside ul li {
+aside ul li {
   padding: 0%;
   margin-left: 0%;
   width: 100%;
@@ -397,16 +404,17 @@ main aside {
   margin-bottom: 1%;
 }
 
- aside ul li a {
+aside ul li a {
   width: auto;
   margin-right: 0%;
-  padding: 0%;
+  margin: 0%;
+  padding: 2%;
   clear: both;
   text-align: left;
   border: none;
 }
 
- aside ul li a h3,
+aside ul li a h3,
 main ul li h3 {
   margin-top: 0%;
   margin-left: 5%;
@@ -415,16 +423,21 @@ main ul li h3 {
   float: left;
   font-size: 18px;
   color: black;
+  border: none;
+
 }
 
- aside ul li a h4,
+aside ul li a h4,
 main ul li h4 {
   margin-left: 5%;
   width: 75%;
   float: left;
   font-size: 16px;
   color: gray;
+  font-weight: normal;
+
   border: none;
+
 }
 
 body {
@@ -438,6 +451,8 @@ main section img {
   margin-left: 7.5%;
   height: auto;
   float: left;
+  border: none;
+
 }
 
 main section div {
@@ -492,7 +507,9 @@ main section div p {
 }
 
 main section div h2 {
+  font-size: 32px;
   margin-left: 0%;
+  padding: 0%;
   text-align: center;
 }
 
@@ -500,6 +517,8 @@ main ul li img {
   margin-left: 0%;
   width: 15%;
   float: left;
+  border: none;
+
 }
 
 ul {
@@ -507,7 +526,7 @@ ul {
   padding-left: 5%;
   display: flex;
   margin-bottom: 3%;
-  border:none;
+  border: none;
 }
 
 ul li {
@@ -544,6 +563,7 @@ h1 {
   width: 30%;
   line-height: 90%;
 }
+
 main h2 {
   font-size: 60px;
   padding-left: 10%;
@@ -551,16 +571,161 @@ main h2 {
   border: none;
 
 }
+
 main h3 {
   font-size: 30px;
   padding-left: 10%;
   margin-bottom: 1%;
-  border: none;
 
 }
+
 main p {
   margin-left: 20%;
   margin-bottom: 1%;
   border: none;
+  clear: both;
+}
+
+body main .aside-izq h2 {
+  font-size: 32px;
+  margin-left: 0%;
+  padding-left: 5%;
+}
+
+body main .aside-izq {
+  float: left;
+  width: 20%;
+  padding: 2%;
+    margin-top: 0.5%;
+  margin-left: 2%;
+  margin-right: 0%;
+
+}
+
+body main .aside-izq ul {
+  margin-top: 7.5%;
+}
+
+body main .aside-izq ul li {
+  width: 100%;
+  border: none;
+}
+
+body main .aside-izq ul li a {
+  width: 100%;
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+  border: none;
+
+}
+
+body main .aside-izq div a {
+  width: 40%;
+  margin-left: 0%;
+  padding: 2.5%;
+  border: 1px solid gray;
+  clear: both;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+body main .aside-izq div {
+  width: 90%;
+  margin: 5%;
+  margin-top: 20%;
+  border: 1px solid gray;
+  display: flex;
+  gap: 8%;
+  border: none;
+}
+
+body .workspace {
+  width: 60%;
+  float: right;
+  margin: 0%;
+  margin-right: 7.5%;
+}
+
+body .workspace ul {
+  width: 90%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+
+  margin-left: 5%;
+  padding: 0%;
+  display: inline-block;
+}
+
+body .workspace ul li {
+  width: 98%;
+  padding: 1%;
+  margin: 0%;
+  align-items: center;
+  clear: both;
+  display: flex;
+}
+
+body .workspace h2 {
+  font-size: 34px;
+  padding-left: 5%;
+  margin: 0%;
+}
+
+body .workspace h3 {
+  margin-top: 0%;
+  margin-left: 15%;
+  padding: 0%;
+  width: 20%;
+  text-align: center;
+
+}
+
+body .workspace h4 {
+  width: 50%;
+  padding: 0%;
+  color: black;
+}
+
+body .workspace h5 {
+  padding: 0%;
+  color: gray;
+  font-weight: normal;
+  border: none;
+}
+
+body .workspace ul li a {
+  width: 100%;
+  padding: 1.5%;
+  margin:0%;
+  text-align: left;
+  clear: both;
+}
+
+body .workspace ul li a img {
+  width: 5%;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+}
+
+body .workspace ul li a h3 {
+  margin-left: 0%;
+  text-align: left;
+}
+
+body .workspace a {
+  color: grey;
+  width: 20%;
+  text-align: center;
+  margin-left: 40%;
+  margin-bottom:7%;
+  padding: 1%;
+  display: inline-block;
+  clear: both;
+}
+
+body .workspace a h5 {
   clear: both;
 }
